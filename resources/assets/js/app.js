@@ -1,3 +1,4 @@
+import Vue from 'vue';
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -7,7 +8,7 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+window.Vue = Vue;
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
